@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <style>
+                            .btn-classic{
+                                background-color: #3498db;
+                                color: red;
+                                border: none;
+                                padding: 12px 24px;
+                                border-radius: 6px;
+                                font-size: 16px;
+                                cursor: pointer;
+                                transition: background-color  0.3s ease;
+                            }
+                        .btn-classic:hover{
+                                background-color: #2980b9;
+                            }
+                            .btn-advanced{
+                                background-color: #e74c3c;
+                                color: black;
+                                border: none;
+                                padding: 12px 24px;
+                                border-radius: 6px;
+                                cursor: pointer;
+                                transform: translate y (0);
+                                box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+                                transition: all0,0.3 cubic-bezier(0.4,0,0.2);
+                                 }
+            .btn-advanced:hover{
+                background color:#c0392b;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="btn-classic">Hover me</button>
+        <button class="btn-advanced">advanced button</button>
+    </body>
+</html>
